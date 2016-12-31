@@ -1,5 +1,10 @@
+
+$(document).ready(function(){
+    $('[data-toggle="popover"]').popover();   
+});
+
 /*@param url {String}
-@param method {String} HTTP verb ('GET', 'POST', 'DELETE', etc.)*/
+@param method {String} HTTP verb ('GET', 'POST', 'DELETE', etc.)
 function createCORSRequest(method, url) {
   var xhr = new XMLHttpRequest();
   if ("withCredentials" in xhr) {

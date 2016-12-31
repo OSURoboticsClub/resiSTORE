@@ -21,13 +21,13 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <script> src="index.php"</script>
+    <!--<script> src="index.php"</script>-->
     <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
       integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
       crossorigin="anonymous">
     </script>
-    <!--<script src="js/index.js"></script>-->
+    <script src="js/index.js"></script>
   </head>
   <body>
     <!-- Navigation -->
@@ -73,12 +73,30 @@
                  
                 <img class="img-responsive-middle" src="img/logo1.png" alt="">
               <hr class="intro-divider">
-                <h3>an electronics store powered by</h3>
+                <h3>An electronics store powered by the</h3>
                 <!--<h3>powered by <a href="http://www.osurobotics.club"><span class="label label-success">OSURobotics.club</span></a></h3>-->
-                <img class="img-responsive-middle" src="img/LogoBlack-300x107.png" alt="" >
+                <a href="http://www.osurobotics.club"><img class="img-responsive-middle" src="img/LogoBlack-300x107.png" alt="" ></a>
                 
                 <div class="avalibility-banner1">
-                    <h3>Store is currently <span class="label label-warning">CLOSED</span></h3>
+                    <h3>The store is currently 
+                    <span class="label label-warning">CLOSED</span>
+                    <button type="button" 
+                        class="btn btn-info"
+                        role="button"
+                        data-container="body" 
+                        data-trigger="hover" 
+                        data-toggle="popover" 
+                        data-placement="bottom"
+                        data-html="true"
+                        data-content="<div>This status is polled from a sensor in the store! This lets you know whether someone is in the store <i>right now.<i><div>">
+                      ⓘ
+                    </button>
+                    </h3>
+                    <script>
+                    $(document).ready(function(){
+                        $('[data-toggle="popover"]').popover();   
+                    });
+                    </script>
                 </div>
                 <!--<div class="avalibility-banner2">
                     <h3>Store is currently <span class="label label-info">OPEN</span></h3>
@@ -192,7 +210,7 @@
             <p>
           </div>
           <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-            <img class="img-responsive" src="img/solder-station-1548360_1920.jpg" alt="">
+            <img class="img-responsive" src="img/1230161458_HDR-ANIMATION.gif" alt="">
           </div>
         </div>
       </div>
