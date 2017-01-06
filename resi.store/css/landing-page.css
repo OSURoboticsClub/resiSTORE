@@ -206,8 +206,10 @@ img {
   height: auto ;
 }
 .map {
+    position: relative;
+    top: 20px;
+    padding: 5px;
     border-radius: 5px;
-    width: 40%
 }
 .store-gif {
     position: relative;
