@@ -20,6 +20,6 @@ function boolBanner()
     xhttp.send();
 }
 function setUpTimer () {
-    window.setInterval(boolBanner,120000);
+    window.setInterval(boolBanner,1000);
 }
-document.addEventListener('DOMContentLoaded', boolBanner);
+document.addEventListener('DOMContentLoaded', setUpTimer);
