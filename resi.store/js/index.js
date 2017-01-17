@@ -8,12 +8,12 @@ function boolBanner()
            var luxbool = xhttp.responseText;
 
            if (luxbool == true) {
-              document.getElementById("temp").innerText = "Open"; 
-              document.getElementById("temp").className = "label label-info";
+              document.getElementById("store-status").innerText = "Open"; 
+              document.getElementById("store-status").className = "label label-info";
            }
            if (luxbool == false) {
-              document.getElementById("temp").innerText = "Closed"; 
-              document.getElementById("temp").className = "label label-warning";
+              document.getElementById("store-status").innerText = "Closed"; 
+              document.getElementById("store-status").className = "label label-warning";
            }
     }; //resi.store/web_scripts/
     xhttp.open("GET", "lux.bool", true);
