@@ -10,7 +10,8 @@
     <meta name="keywords" content="robotics, materials, oregon state, oregon state university, OSU, OSU engineering, OSU computer science, electronics, electronics store, robotics store, OSURC, oregon state robotics club, oregon state university robotics club store,  oregon state university robotics club, osurobotics, osurobotics.club, Resistore, RESI-store, resi store, arduino OSU, teensy OSU, arduino, teensy, motors, motor controllers, connectors, dev boards">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ResiSTORE | An electronics store powered by OSURC</title>
-
+      
+    <base href="/">
     <link href="./css/landing-page.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href=".">
@@ -79,7 +80,7 @@
                 
                 <div class="avalibility-banner1" id="closed">
                     <h3>The store is currently 
-                    <span class="label label-warning">CLOSED</span>
+                    <span class="label label-warning" id="temp">CLOSED</span>
                     <button type="button" 
                         class="btn btn-info"
                         role="button"
@@ -98,26 +99,6 @@
                     });
                     </script>
                 </div>
-                <div class="avalibility-banner2" id="open">
-                    <h3>The store is currently <span class="label label-info">OPEN</span>
-                    <button type="button" 
-                        class="btn btn-info"
-                        role="button"
-                        data-container="body" 
-                        data-trigger="hover" 
-                        data-toggle="popover" 
-                        data-placement="bottom"
-                        data-html="true"
-                        data-content="<div>This status is polled from a sensor in the store! This lets you know whether someone is in the store <i>right now.<i><div>">
-                      ⓘ
-                    </button>
-                    </h3>
-                    <script>
-                    $(document).ready(function(){
-                        $('[data-toggle="popover"]').popover();   
-                    });
-                    </script>
-                </div>       
             </div>
           </div>
         </div>
@@ -206,7 +187,7 @@
               </div>
             </div>
               <div class="responsiveCal" style="text-align: center;">
-                    <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=WEEK&amp;height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=mpf22cfpmbc2hhohohsaskulkk%40group.calendar.google.com&amp;color=%232952A3&amp;ctz=America%2FLos_Angeles" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+                    <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=WEEK&amp;height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=mpf22cfpmbc2hhohohsaskulkk%40group.calendar.google.com&amp;color=%232952A3&amp;ctz=America%2FLos_Angeles" style="border-width:0" width="800" height="400" frameborder="0" scrolling="no"></iframe>
               </div>
         </div>
       </div>
