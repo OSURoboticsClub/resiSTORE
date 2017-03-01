@@ -9,7 +9,19 @@ h5,
 h6{font-family:"Lato","Helvetica Neue",Helvetica,Arial,sans-serif;font-weight:700;}
 .topnav{font-size:14px;}
 .lead{font-size:18px;font-weight:400;}
-.intro-header{padding-top:50px;padding-bottom:50px;text-align:center;color:#f8f8f8;background-color:#E65100;background-size:cover;}
+.intro-header
+{
+    padding-top:20px;
+    padding-bottom:50px;
+    text-align:center;
+    color:black;
+    background: orange; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(white, orange); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(white, orange); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(white, orange); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#f46b45,#eea849); /* Standard syntax (must be */
+    background-size:contain;
+}
 .intro-message{position:relative;padding-top:20%;padding-bottom:20%;}
 .intro-message > h1{margin:0;font-size:5em;}
 .intro-divider{width:400px;border-top:1px solid #f8f8f8;border-bottom:1px solid rgba(0,0,0,0.2);}
