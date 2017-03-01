@@ -11,15 +11,15 @@ h6{font-family:"Lato","Helvetica Neue",Helvetica,Arial,sans-serif;font-weight:70
 .lead{font-size:18px;font-weight:400;}
 .intro-header
 {
-    padding-top:20px;
-    padding-bottom:50px;
+    height: 700px;
+   
     text-align:center;
     color:black;
     background: orange; /* For browsers that do not support gradients */
     background: -webkit-linear-gradient(white, orange); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(white, orange); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(white, orange); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#f46b45,#eea849); /* Standard syntax (must be */
+    background: linear-gradient(#eea849, #f46b45); /* Standard syntax (must be */
     background-size:contain;
 }
 .intro-message{position:relative;padding-top:20%;padding-bottom:20%;}
@@ -37,7 +37,17 @@ ul.intro-social-buttons > li:last-child{margin-bottom:0;}
 .content-section-b{padding:50px 0;border-top:1px solid #e7e7e7;border-bottom:1px solid #e7e7e7;}
 .section-heading{margin-bottom:30px;}
 .section-heading-spacer{float:left;width:200px;border-top:3px solid #e7e7e7;}
-.banner{padding:100px 0;color:#f8f8f8;background-color:#E65100;background-size:cover;}
+.banner
+{
+    padding:100px 0;
+    color:#f8f8f8;
+    background: orange; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(white, orange); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(white, orange); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(white, orange); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#f46b45,#eea849); /* Standard syntax (must be */
+    background-size:contain;
+}
 .banner h2{margin:0;font-size:3em;}
 .banner ul{margin-bottom:0;}
 .banner-social-buttons{float:right;margin-top:0;}
